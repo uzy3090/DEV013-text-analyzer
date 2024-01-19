@@ -1,13 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html> 
 
-<head>
-  <meta charset="utf-8">
-  <title>Analizador de texto</title>
+<head>  
+  <meta charset="utf-8"/>
+  <title>Analizador de texto </title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header> 
+    <h1>Analizador de Textos</h1>
+  </header>
+  <!--- textarea es la caja donde el usuario escribe
+     Un input en HTML es un elemento que se utiliza para crear controles interactivos--->
+  <textarea name="user-input" cols="30" rows="10"></textarea>
+  <ul>
+    <section class="flex-container" ></section>
+      <li class="word-count" data-testid="word-count">Recuento de palabras </li> 
+      <li class="character-count" data-testid="character-count">Recuento de caracteres</li>
+      <li class="character-no-spaces-count" data-testid="character-no-spaces-count">Recuento de caracteres exluyendo espacios y signos de puntuacion</li>
+      <li class="number-count" data-testid="number-count">Recuento de numeros</li>
+      <li class="number-sum" data-testid="number-sum">Suma total de numeros</li>
+      <li class="word-length-average" data-testid="word-length-average">Longitud media de palabras</li>
+  
+    <button id="reset-button">Limpiar</button>
+  </ul>
+  <footer>
+  <p> 
+    Desarrolladora: Lucia Perez 
+  </p></footer>
+
+
+ 
   <script src="index.js" type="module"></script>
 </body>
 </html>

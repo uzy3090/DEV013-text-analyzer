@@ -1,0 +1,23 @@
+body 
+{
+    background-image: url(https://img.freepik.com/premium-vector/vector-illustration-beauty-wood-wall-floor-texture-pattern-background_34266-2409.jpg?w=996);
+}
+.flex-container {
+    border: 1 px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    border: 1px solid rgb(red, green, blue);
+    background-color: whitesmoke;
+    color: blueviolet;
+    font-family: 'Cuorier New' Courier, monospace;
+    font-weight: bold;  
+    Width: 120px;
+    height: 120 px; 
+    line: 120 px; 
+    text-align: center; 
+    margin: 5px;
+}
+
