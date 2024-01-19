@@ -2,22 +2,32 @@ body
 {
     background-image: url(https://img.freepik.com/premium-vector/vector-illustration-beauty-wood-wall-floor-texture-pattern-background_34266-2409.jpg?w=996);
 }
-.flex-container {
-    border: 1 px solid black;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-}
-.box {
-    border: 1px solid rgb(red, green, blue);
-    background-color: whitesmoke;
-    color: blueviolet;
-    font-family: 'Cuorier New' Courier, monospace;
-    font-weight: bold;  
-    Width: 120px;
-    height: 120 px; 
-    line: 120 px; 
-    text-align: center; 
-    margin: 5px;
-}
 
+ul{
+list-style: none;
+padding-right: 50px;
+padding-left: 50px;
+border-radius: 5px;
+margin: 10px;
+text-align: center;
+}
+li{
+border: 2px solid rgb(190, 33, 174);
+padding: 30px;
+margin: 10px;
+background-color: #e180d9;
+height: auto;
+}
+footer p, footer a{
+padding-left: 0;
+color: #bd61c9;
+}
+header, h1{
+color: #cf54c5;
+font-size: 40px;
+}
+#reset-button{
+font-size: 20px;
+width: 150px;
+background-color: #bb20c6;
+}
